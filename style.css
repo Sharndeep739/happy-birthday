@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    font-family: cursive
+}
+.text{
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    left: 20%;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #550028;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #EE7674;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.out{
+    height: 420px;
+    width: 520px;
+    background-color: #F9B5AC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 17px 5px black;
+    position: relative;
+    left: 210px;
+}
+.in{
+    height: 400px;
+    width: 500px;
+    background-image: url("pexels-bertellifotografia-573238.jpg");
+    background-size: cover;
+}
+.cook1{
+    height:300px;
+    width: 200px;
+    background-color: #F9B5AC;
+    position: relative;
+    right: 570px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-15deg);
+    box-shadow: 0px 0px 17px 5px black;
+}
+.cook1 div{
+    height: 90%;
+    width: 90%;
+    background-image: url("pexels-rodrigo-souza-1275988-2531546.jpg");
+    background-size: cover;
+}
+/*box*/
+.boxs{
+    height: 400px;
+    width: 60px ;
+    position: relative;
+    right: 70px;
+
+}
+.boxs div{
+    height: 19%;
+    width: 100%;
+    background-color: #D0D6B5;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    transform: rotate(90deg);
+    transition: all 0.3s ease-in-out;
+    
+}
+.boxs div:hover{
+    transform: rotate(0deg);
+    filter: drop-shadow(0px 0px 10px rgb(0, 0, 0));
+    z-index: 1;
+}
+.boxs div:hover{
+    transform:scale(3.9);
+    
+}
+.box1{
+    background-image: url("img.jpg");
+    background-size: cover;
+}
+.box2{
+    background-image: url("images2.jpg");
+    background-size: cover;
+}
+.box3{
+    background-image: url("img3.jpg");
+    background-size: cover;
+}
+.box4{
+    background-image: url("images4.jpg");
+    background-size: cover;
+}
+.box5{
+    background-image: url("images5.png");
+    background-size: cover;
+}
+.image{
+    height: 380px;
+    width: 380px;
+    background-color: #F9B5AC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: -60px;
+    filter: drop-shadow(0px 0px 10px black);
+}
+#img{
+    height: 330px;
+    width: 330px;
+    position: relative;
+    background-image: url("jsa.jpg");
+    background-size: cover;
+
+}
